@@ -1,5 +1,4 @@
-      //abcdefghijklmnopqrstuvwxyz
-//let key=zyxwvutsrqponmlkjihgfedcba
+
 
 let phrase = "I LOVE CRYPTOGRAPHY"
 
