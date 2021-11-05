@@ -4,16 +4,16 @@ let phrase = "I LOVE CRYPTOGRAPHY"
 
 function rot13(str) {
       const rot13 = {
-        'N': "A",
-        'O': 'B',
-        'P': 'C',
-        'Q': 'D',
+        'P': "A",
+        'N': 'B',
+        'O': 'C',
+        'S': 'D',
         'R': 'E',
-        'S': 'F',
+        'Q': 'F',
         'T': 'G',
-        'U': 'H',
+        'W': 'H',
         'V': 'I',
-        'W': 'J',
+        'U': 'J',
         'X': 'K',
         'Y': 'L',
         'Z': 'M',
@@ -22,13 +22,13 @@ function rot13(str) {
         'C': 'P',
         'D': 'Q',
         'E': 'R',
-        'F': 'S',
-        'G': 'T',
-        'H': 'U',
-        'I': 'V',
+        'G': 'S',
+        'H': 'T',
+        'F': 'U',
+        'L': 'V',
         'J': 'W',
         'K': 'X',
-        'L': 'Y',
+        'I': 'Y',
         'M': 'Z'
       }
       const splitStr = str.split(' ').map(string => {
@@ -39,4 +39,4 @@ function rot13(str) {
 
       console.log(rot13(phrase));
 
-      //I picked this one because it was easy to cipher. I would not actually use this one for my own because it's too easy to break. 
+      //I picked this one because you need a key to break it or keep trying ALOT of times to break it. 
